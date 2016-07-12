@@ -7,6 +7,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'scrooloose/nerdTree'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 filetype plugin indent on
@@ -27,3 +29,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 "Airline
 set t_Co=256
 set laststatus=2
+
+"NerdTree
+map <C-n> :NERDTreeToggle<CR>
+
+"Other
+set mouse=a
+colorscheme molokai
