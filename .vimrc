@@ -33,6 +33,9 @@ set laststatus=2
 "NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
+"File saving
+set backupcopy=yes
+
 "Other
 set mouse=a
 colorscheme molokai
